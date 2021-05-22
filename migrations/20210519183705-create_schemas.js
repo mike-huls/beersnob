@@ -2,10 +2,10 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createSchema('countrydata')
+    await queryInterface.createSchema('app')
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropSchema('countrydata');
+    await queryInterface.dropSchema('app');
   }
 };

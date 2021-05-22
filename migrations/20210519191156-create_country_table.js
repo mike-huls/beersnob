@@ -1,6 +1,6 @@
 'use strict';
 
-let tableModel = { schema: 'countrydata', tableName: 'countries' };
+let tableModel = { schema: 'app', tableName: 'countries' };
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
